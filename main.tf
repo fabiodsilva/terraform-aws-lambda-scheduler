@@ -43,6 +43,8 @@ data "aws_iam_policy_document" "ec2-access-scheduler" {
       "ec2:CreateTags",
       "rds:DescribeDBInstances",
       "rds:DescribeDBClusters",
+      "rds:StartDBCluster",
+      "rds:StopDBCluster",
       "rds:StartDBInstance",
       "rds:StopDBInstance",
       "rds:ListTagsForResource",
